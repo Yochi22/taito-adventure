@@ -1,0 +1,38 @@
+.card-gallery {
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.modal-dialog {
+  max-width: 30%; /* Ajusta el ancho del modal según sea necesario */
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .modal-dialog {
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 0; /* Asegura que no haya margen inferior */
+    max-width: 80%
+    
+  }
+
+  .modal-content {
+    padding: 5px; /* Agrega relleno al contenido del modal para compensar el margen superior negativo */
+  }
+}
+

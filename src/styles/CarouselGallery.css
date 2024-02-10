@@ -1,0 +1,36 @@
+/* Estilos generales del carrusel */
+.carousel {
+  max-width: 800px; /* Ajusta el ancho máximo del carrusel según sea necesario */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+/* Estilos de cada elemento del carrusel */
+.carousel-item {
+  max-height: 300px; /* Ajusta la altura máxima de los elementos del carrusel según sea necesario */
+}
+
+/* Estilos de las imágenes dentro de los elementos del carrusel */
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción de aspecto */
+  max-height: 100%; /* Asegura que la imagen no se desborde del elemento del carrusel */
+  object-fit: cover; /* Ajusta la imagen para cubrir el área del elemento del carrusel */
+}
+
+/* Estilos de las leyendas del carrusel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para la leyenda */
+  color: white; /* Color del texto de la leyenda */
+  position: absolute;
+  bottom: 0; /* Coloca la leyenda en la parte inferior del elemento del carrusel */
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+  .carousel-item {
+    max-height: 200px; /* Ajusta la altura máxima de los elementos del carrusel en dispositivos móviles */
+  }
+}

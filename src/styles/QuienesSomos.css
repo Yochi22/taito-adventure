@@ -1,0 +1,52 @@
+.quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor de texto */
+    margin: 0 auto; /* Centra el contenedor de texto horizontalmente */
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .quienes-somos-image {
+    width: 100%;
+    max-width: 500px; /* Limita el ancho de la imagen para dispositivos grandes */
+  }
+  
+  .grid-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+    gap: 30px; /* Espacio entre los elementos */
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Estilos adicionales para dispositivos móviles o pantallas pequeñas */
+    .quienes-somos-container {
+      padding: 10px;
+    }
+  
+    .quienes-somos-image {
+      max-width: 100%; /* Ajusta el ancho de la imagen al 100% para dispositivos pequeños */
+    }
+  
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* 1 columna en dispositivos pequeños */
+    }
+  }
+  
