@@ -4,7 +4,7 @@ import bannerSecond from '../assets/bannerSecond.png'; // Importa la imagen del 
 
 function BannerSecond() {
   return (
-    <div className="banner">
+    <div className="bannerSecond">
       <div className="overlay"></div>
       <img src={bannerSecond} alt="Banner" className="banner-image" />
       <h1 className="banner-text">Conoce San Pedro de Atacama <br />Explore San Pedro de Atacama</h1>

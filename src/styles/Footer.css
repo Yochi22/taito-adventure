@@ -1,0 +1,38 @@
+.footer {
+  background-color: #222222;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.icons-footer a {
+  color: #d0f13b;
+  font-size: 30px;
+}
+
+.footer-icons a:hover {
+  color: #00ff00; /* Cambia el color al pasar el cursor sobre los íconos */
+}
+
+.footer-address {
+  font-size: 25px;
+}
+
+/* Estilos adicionales según sea necesario */

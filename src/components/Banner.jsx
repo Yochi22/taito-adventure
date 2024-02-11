@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Banner.css'; // Importa tu archivo de estilos CSS para el banner
-import bannerImage from '../assets/bannerImage.jpg'; // Importa la imagen del banner
+import '../styles/Banner.css'; 
+import bannerImage from '../assets/bannerImage.jpg'; 
 
 function Banner() {
   return (

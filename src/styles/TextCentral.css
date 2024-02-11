@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+  }
+  
+  .title, .subtitle, .text {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 950px; 
+    padding: 10px;
+  }
+  
+  .subtitle {
+    margin-top: 20px; 
+  }
+  

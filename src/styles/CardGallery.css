@@ -15,7 +15,7 @@
 }
 
 .modal-dialog {
-  max-width: 30%; /* Ajusta el ancho del modal según sea necesario */
+  max-width: 30%; 
 }
 
 .modal-content img {
@@ -25,14 +25,14 @@
 
 @media (max-width: 767px) {
   .modal-dialog {
-    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
-    margin-bottom: 0; /* Asegura que no haya margen inferior */
+    margin-top: 50px; 
+    margin-bottom: 0; 
     max-width: 80%
     
   }
 
   .modal-content {
-    padding: 5px; /* Agrega relleno al contenido del modal para compensar el margen superior negativo */
+    padding: 5px; 
   }
 }
 

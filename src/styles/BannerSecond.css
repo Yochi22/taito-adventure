@@ -1,4 +1,4 @@
-.banner {
+.bannerSecond {
     position: relative;
     width: 100%;
     height: 450px;
@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    opacity: 0.5; /* Opacidad de la imagen */
+    opacity: 0.5; 
   }
   
   .overlay {
@@ -35,12 +35,12 @@
   }
   
   @media screen and (max-width: 768px) {
-    /* Estilos adicionales para dispositivos móviles o pantallas pequeñas */
+    
     .banner {
-      height: 150px; /* Ajusta la altura del banner para dispositivos móviles */
+      height: 150px; 
     }
   
     .banner-text {
-      font-size: 18px; /* Ajusta el tamaño del texto para dispositivos móviles */
+      font-size: 18px; 
     }
   }
