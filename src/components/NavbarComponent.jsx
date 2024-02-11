@@ -9,19 +9,19 @@ export function NavbarComponent() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container className='#navbar-container'>
-        <Navbar.Brand href="/" className='title-navbar'>
+        <Navbar.Brand href="#about" className='title-navbar'>
           <img src={logo} alt="Logo" className="navbar-logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#timeline">HOME</Nav.Link>
-            <Nav.Link href="#cancion">ABOUT US</Nav.Link>
-            <Nav.Link eventKey={2} href="#todolist">
+            <Nav.Link href="#banner">HOME</Nav.Link>
+            <Nav.Link href="#about">ABOUT US</Nav.Link>
+            <Nav.Link eventKey={2} href="#gallery">
               GALLERY
             </Nav.Link>
-            <Nav.Link href="#cancion">TOURS</Nav.Link>
-            <Nav.Link href="#cancion">CONTACT US</Nav.Link>
+            <Nav.Link href="#tours">TOURS</Nav.Link>
+            <Nav.Link href="#contact">CONTACT US</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

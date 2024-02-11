@@ -7,7 +7,7 @@ function BannerSecond() {
     <div className="bannerSecond">
       <div className="overlay"></div>
       <img src={bannerSecond} alt="Banner" className="banner-image" />
-      <h1 className="banner-text">Conoce San Pedro de Atacama <br />Explore San Pedro de Atacama</h1>
+      <h1 className="banner-text">Conoce San Pedro de Atacama <br /><i>Explore San Pedro de Atacama</i></h1>
     </div>
   );
 }

@@ -29,9 +29,9 @@ function CardGallery() {
   };
 
   return (
-    <div className="card-gallery">
+    <div className="card-gallery" id='tours'>
       <h2>Tours imperdibles</h2>
-        <h2>Unmissable tours</h2>
+        <h2><i>Unmissable tours</i></h2>
       <div className="cards-container">
         {cardsData.map(card => (
           <Card key={card.id} className="card" onClick={() => handleCardClick(card)}>
